@@ -43,7 +43,7 @@ vector<int> findMajority(vector<int>& arr) {
 }
 
 int main(){
-    vector<int> arr = {2,2,3,1,3,2,1,1};
+    vector<int> arr = {2,2,3,1,4,2,1,1};
     vector<int> res = findMajority(arr);
     for(int ele:res){
         cout << ele << " ";
